@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://admin.expatica.com/es/wp-content/uploads/sites/2/2023/10/barcelona-1536x1024.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(https://images.ctfassets.net/zmjc9gr9hbbf/6HMIFjEA9ZINN107J3CJgE/e1de531dbbc2c236400b18efe474d8f0/VAL37174_View_of_Peniscola_from_Castillo_del_Papa_Luna__Valencia._Shutterstock.jpg?w=1980) ;
+}
+.card2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Gran_V%C3%ADa_%28Madrid%29_1.jpg/800px-Gran_V%C3%ADa_%28Madrid%29_1.jpg);
+}
+.card3{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/84/22/c5/caption.jpg?w=1200&h=1600&s=1);
+}
+.card4{
+    background-image:url(https://cdn.britannica.com/75/150175-050-D6FC537E/Nuestra-Senora-del-Pilar-Cathedral-Ebro-River.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+
+
+
+
